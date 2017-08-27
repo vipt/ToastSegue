@@ -14,6 +14,7 @@
 		36DB00FB1F516EB400BBA797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DB00F91F516EB400BBA797 /* LaunchScreen.storyboard */; };
 		36DB01061F516EB500BBA797 /* ToastSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB01051F516EB500BBA797 /* ToastSegueTests.swift */; };
 		36DB01111F516EB500BBA797 /* ToastSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB01101F516EB500BBA797 /* ToastSegueUITests.swift */; };
+		36DB011F1F516F6A00BBA797 /* ToastSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB011E1F516F6A00BBA797 /* ToastSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		36DB010C1F516EB500BBA797 /* ToastSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DB01101F516EB500BBA797 /* ToastSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastSegueUITests.swift; sourceTree = "<group>"; };
 		36DB01121F516EB500BBA797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DB011E1F516F6A00BBA797 /* ToastSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				36DB00F01F516EB400BBA797 /* AppDelegate.swift */,
 				36DB00F21F516EB400BBA797 /* ViewController.swift */,
 				36DB00F41F516EB400BBA797 /* Main.storyboard */,
+				36DB011E1F516F6A00BBA797 /* ToastSegue.swift */,
 				36DB00F71F516EB400BBA797 /* Assets.xcassets */,
 				36DB00F91F516EB400BBA797 /* LaunchScreen.storyboard */,
 				36DB00FC1F516EB400BBA797 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					36DB00EC1F516EB400BBA797 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LDMRJJ9ABC;
 						ProvisioningStyle = Automatic;
 					};
 					36DB01001F516EB500BBA797 = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DB011F1F516F6A00BBA797 /* ToastSegue.swift in Sources */,
 				36DB00F31F516EB400BBA797 /* ViewController.swift in Sources */,
 				36DB00F11F516EB400BBA797 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LDMRJJ9ABC;
 				INFOPLIST_FILE = ToastSegue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.vipt.ToastSegue;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LDMRJJ9ABC;
 				INFOPLIST_FILE = ToastSegue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.vipt.ToastSegue;

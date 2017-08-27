@@ -19,7 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let toastSegue = segue as! ToastSegue
+        toastSegue.message = "Hello World!"
+    }
 
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "next", sender: nil)
+    }
 
 }
 
